@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*in body section i used fonts ,justify-content, background color properties */
+body{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(63, 59, 59, 0.61);
+    box-shadow: #0704d4;
+
+}
+.center{
+    background: rgb(0, 0, 0);
+    margin: 20px auto;
+    width: 570px auto;
+    height: 400px;
+}
+/*in input  display i used font-size,paddig,height,width, and border to look display beautiful*/
+input[type="text"]{
+    height: 63px ;
+    width: 490px; ;
+    margin-top: 38px ;
+    border-radius: 3px ;
+    border: 3px solid #b30045 ;
+    color: rgb(0, 0, 0) ;
+    font-size: 30px;
+    font-weight: bold ;
+    text-align: right;
+    padding-right: 50px;
+}
+/*in buttons i used margin and padding properties, used broder to look display beautiful */
+form .buttons{
+    width:534px ;
+    height: 24spx;
+    margin:25px 25px 0px 25px ;
+    padding:0px 20px ;
+    border: 1px solid #8ad007;
+    cursor: pointer;
+    outline: none;
+    color: #0704d4;
+}
+/*in input button i used width and height,margin properties. i used font-size to size the numbers in buttons. background color for buttons*/
+input[type="button"]{
+    width: 56px ;
+    height: 50px;
+    margin:5px ;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 3px;
+    border: 2px solid #333131;
+    background-color: rgb(12, 170, 255);
+}
+input#clear{
+    background: aqua;
+    color: rgb(223, 9, 9);
+
+}
+input#equal{
+    width:280px ;
+    margin:20px 0px 10px 0px ;
+    font-size:30px ;
+    color: rgb(0, 162, 226) ;
+    background: royalblue ;
+    border: 1px solid ;
+    background-color: maroon;
+}

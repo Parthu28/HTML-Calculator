@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific-Calculator</title>
+    <link rel="stylesheet" href="css/cstyle.css">
+</head>
+<body>
+    <!--i used center as class to put calculator on center, i used button type to creates button and onclick to click buttons-->>
+    <div class="center" id="calculator">
+        <form name="forms" class="for">
+            <input name="display" id="display" type="text">
+            <div class="buttons">
+                
+                <input type="button" value="1"   onclick="designate('1')">
+                <input type="button" value="2"   onclick="designate('2')">
+                <input type="button" value="3"   onclick="designate('3')">
+                <input type="button" value="+"   onclick="designate('+')">
+                <input type="button" value="-"   onclick="designate('-')">
+                <input type="button" value="cos"   onclick="cos()">
+                <input type="button" value="tan"   onclick="tan()"><br>
+
+                <input type="button" value="4"   onclick="designate('4')">
+                <input type="button" value="5"   onclick="designate('5')">
+                <input type="button" value="6"   onclick="designate('6')">
+                <input type="button" value="*"   onclick="designate('*')">
+                <input type="button" value="/"   onclick="designate('/')">
+                <input type="button" value="sin"   onclick="sine()">
+                <input type="button" value="sqrt" onclick="sqrt()">  <br>
+             
+               <input type="button" value="7" onclick="designate('7')">
+               <input type="button" value="8" onclick="designate('8')">
+               <input type="button" value="9" onclick="designate('9')">
+               <input type="button" value="="   onclick="equal()">
+               <input type="button" value="AC" onclick="ac()">
+               <input type="button" value="exp"   onclick="fact()">
+               <input type="button" value="rnd"   onclick="rad()"><br> 
+        
+                <input type="button" value="0"   onclick="designate('0')">
+                <input type="button" value="."   onclick="designate('.')">
+                <input  style="margin-right: 220px;" type="button" value="%"   onclick="per()">
+                
+                <input  style="margin-left: 0px;"  type="button" value="log"   onclick="logarithm()"><br> 
+            </div>
+        </form>
+    </div>
+    <script src="js/calculator.js"></script>
+   
+    <script type="text/javascript">
+        document.getElementById('calc').onload=init_calc('calc');
+    </script>
+        
+</body>
+</html>
